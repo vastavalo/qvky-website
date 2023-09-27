@@ -1,0 +1,26 @@
+{
+  "name": "qvky-website",
+  "type": "module",
+  "version": "2023.09.27",
+  "private": true,
+  "engines": {
+    "node": ">=18.14.1"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "5.0.0",
+    "@fontsource/eagle-lake": "5.0.3",
+    "astro": "3.1.2",
+    "prettier": "3.0.3",
+    "prettier-plugin-astro": "0.12.0",
+    "prettier-plugin-tailwindcss": "0.5.4",
+    "tailwindcss": "3.3.3"
+  }
+}
