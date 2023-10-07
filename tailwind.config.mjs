@@ -15,7 +15,7 @@ export default {
         },
       },
       animation: {
-        pan: "pan 200s linear infinite",
+        pan: "pan 180s linear infinite",
       },
     },
   },

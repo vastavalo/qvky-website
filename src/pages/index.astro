@@ -17,12 +17,12 @@ const backgroundImage = await getImage({ src: longexpoImage });
     <title>QVKY</title>
   </head>
   <body
-    class="animate-pan h-screen w-screen bg-black bg-cover bg-no-repeat"
+    class="h-screen w-screen animate-pan bg-black bg-cover bg-no-repeat"
     style={`background-image: url('${backgroundImage.src}')`}
   >
     <main class="fixed inset-0 flex items-center justify-center">
       <h1
-        class="p-8 text-8xl font-bold text-white/90 backdrop-brightness-50 backdrop-sepia"
+        class="w-full p-8 text-center text-8xl font-bold text-white/90 backdrop-brightness-50 backdrop-sepia"
       >
         QVKY
       </h1>
@@ -31,11 +31,11 @@ const backgroundImage = await getImage({ src: longexpoImage });
       class="fixed bottom-0 left-0 right-0 flex items-center justify-center gap-8 p-8"
     >
       <a
-        class="p-4 text-white/90 hover:backdrop-brightness-50 hover:backdrop-sepia"
+        class="p-4 text-lg font-bold text-white/90 hover:backdrop-brightness-50 hover:backdrop-sepia"
         href="https://kameraseuravastavalo.fi/qvky/">Lisätietoja</a
       >
       <a
-        class="p-4 text-white/90 hover:backdrop-brightness-50 hover:backdrop-sepia"
+        class="p-4 text-lg font-bold text-white/90 hover:backdrop-brightness-50 hover:backdrop-sepia"
         href="https://kameraseuravastavalo.fi/en/qvky/">More info</a
       >
     </footer>
