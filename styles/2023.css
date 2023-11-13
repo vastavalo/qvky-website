@@ -57,6 +57,7 @@ h1 {
   font-family: "Eagle Lake", sans-serif;
   font-size: 6rem;
   color: rgb(255, 255, 255, 0.9);
+  -webkit-backdrop-filter: brightness(0.5) sepia(100%);
   backdrop-filter: brightness(0.5) sepia(100%);
 }
 
@@ -72,5 +73,6 @@ a {
 }
 
 a:hover {
+  -webkit-backdrop-filter: brightness(0.5) sepia(100%);
   backdrop-filter: brightness(0.5) sepia(100%);
 }
