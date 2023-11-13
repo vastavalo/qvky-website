@@ -1,16 +1,6 @@
 # QVKY website
 
-This is an [Astro](https://astro.build/) project for QVKY website. It was bootstrapped with `create-astro`.
-
-## 🧞 Commands
-
-| Command           | Action                             |
-| :---------------- | :--------------------------------- |
-| `npm install`     | Install dependencies               |
-| `npm run dev`     | Start local dev server             |
-| `npm run build`   | Build production site to `./dist/` |
-| `npm run preview` | Preview production site locally    |
-| `npm run format`  | Format code with Prettier          |
+This is vanilla HTML + CSS project for QVKY website.
 
 ## ✨ Deployment
 
